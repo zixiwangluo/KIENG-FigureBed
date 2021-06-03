@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html lang='zh-cn'>
+<html lang="en">
 <head>
-	<meta charset='UTF-8'>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-	<title>全球CDN图床 By SKY聚合图床 - 搜狗图床 360图床</title>
+    <meta charset="UTF-8">
+    <title>紫曦の图床 - 京东全球CDN聚合图床</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="keywords" content="紫曦图床,聚合图床,阿里图床,搜狗图床,京东图床,头条图床,腾讯图床,搜狐图床,网易图床,免费图片外链,API图床,图片外链,聚合图床">
+    <meta name="description" content="紫曦图床,一个干净!快速!稳定的图床!全球CDN加速!聚合多家大厂图床,不会保存您的数据,让图床储存变得更安全,更简单.">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/css/fileinput.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/newicon/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/uploadicon/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/css/mdui.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/css/app.css">
 
-	<link rel='stylesheet' href='https://cdn.bootcss.com/normalize/5.0.0/normalize.min.css'>
-	<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
-	<style>
-	html,body {height: 100%;margin: 0;padding: 0;}body {font-family: 'lucida grande', 'lucida sans unicode', lucida, helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;align-items: center;display: flex;}a{text-decoration:none;}#container {max-width: 400px;flex-basis: 100%;margin: 0 auto;background: #FFF;border-radius: 10px;box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);overflow: hidden;}#container #hero-img {width: 100%;height: 200px;background: #007bff;}#container #profile-img {width: 160px;height: 160px;margin: -80px auto 0 auto;}#container #profile-img img {width: 100%;background: #FFF;border-radius: 50%;}#container #content {text-align: center;width: 320px;margin: 0 auto;padding: 0 0 50px 0;}#container #content h1 {font-size: 29px;font-weight: 500;margin: 30px 0 0 0;}#container #content p {font-size: 18px;font-weight: 400;line-height: 1.4;color: #666;margin: 15px 0 40px 0;}#container #content a {color: #CCC;font-size: 14px;margin: 0 10px;transition: color .3s ease-in-out;-webkit-transition: color .3s ease-in-out;line-height: 40px;}#container #content a:hover {color: #007bff;}.btn{background: none repeat scroll 0 0 #1BA1E2; border: 0 none; border-radius: 2px; color: #FFFFFF !important; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px;  padding: 6px 10%;}.btn:hover,.yanshibtn:hover{background: none repeat scroll 0 0 #9B59B6; border: 0 none; border-radius: 2px; color: #FFFFFF!important; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; padding: 8px 10%;}
-	.imgType{display: none;}
-	#images img{width: 100%}
-	#imgurl input{width: 100%}
-	#imgurl,#progress{display: none;}
+    <style>
+      .btn-file {
+          background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+          background-size: 400%;
+          color: #fff;
+      }
 
-	@-webkit-keyframes rotation{
-		from {-webkit-transform: rotate(0deg);}
-		to {-webkit-transform: rotate(360deg);}
-	}
+      .btn-file:hover {
+          animation: sun 8s infinite;
+      }
 
-	.Rotation{
-		-webkit-transform: rotate(360deg);
-		animation: rotation 3s linear infinite;
-		-moz-animation: rotation 3s linear infinite;
-		-webkit-animation: rotation 3s linear infinite;
-		-o-animation: rotation 3s linear infinite;
-	}
+      @keyframes sun {
+          100%{
+              background-position: -400% 0;
+          }
+      }
+    </style>
 
-	.img{border-radius: 250px;}
-</style>
 
 <script>
 var _hmt = _hmt || [];
@@ -52,182 +59,167 @@ var _hmt = _hmt || [];
 
 
 </head>
-<body>
-	<div id='container'>
-		<div id='hero-img'>
-		</div>
-		<div id='profile-img'>
-			<img src='https://ae01.alicdn.com/kf/U86be0ebc85004924a57b3f81c8091f51Y.jpg' id="imgLoading" class="Rotation img" title="显示与隐藏"/>
-		</div>
-		<div id='content'>
-			<h2>全球CDN图床</h2>
-			<h5>搜狗图床 360图床</h5>
-			<h10><a href="https://imgup.000714.xyz/jd.html" style="color:#999;" title="京东图床">京东图床</a><a href="https://imgup.000714.xyz/ali.html" style="color:#999;" title="阿里图床">阿里图床</a><a href="https://imgup.000714.xyz/sg.html" style="color:#999;" title="搜狗图床">搜狗图床</a><a href="https://imgup.000714.xyz/sh.html" style="color:#999;" title="搜狐图床">搜狐图床</a><a href="https://imgup.000714.xyz/tt.html" style="color:#999;" title="头条图床">头条图床</a><a href="https://imgup.000714.xyz/58.html" style="color:#999;" title="58图床">58图床</a><a href="https://imgup.000714.xyz/kefu.html" style="color:#999;" title="KF图床">KF图床</a><a href="https://imgup.000714.xyz/wy.html" style="color:#999;" title="网易图床">网易图床</a><a href="https://imgup.000714.xyz/qq.html" style="color:#999;" title="腾讯图床">腾讯图床</a><a href="https://imgup.000714.xyz/hl.html" style="color:#999;" title="葫芦图床">葫芦图床</a><a href="https://imgup.000714.xyz/360.html" style="color:#999;" title="360图床">360图床</a>  
-			<br>Copyright &copy; 2020<span id="timeyear"></span> <a href="https://www.blueskyxn.com/" style="color:#999;" title="苍穹の下">BlueSkyXN</a> 
-			<br>All Rights Reserved 
-			<br><a href="https://www.blueskyxn.com/" style="color:#999;" title="苍穹の下">博客·苍穹の下</a> <a href="https://www.blueskyxn.com/202102/4030.html" style="color:#999;" title="苍穹の下">About</a>
-			</h10>
-			<div id="progress"><progress max="100" value="0" id="pg"></progress></div>
-			<p class="imgType" id="imgType"></p>
-			<form id="form1">
-				<a href='javascript:void(0)' id="sougouImg" onclick="update('sougou')" class="btn btn-default" rel='nofollow'>搜狗图床</a><a href='javascript:void(0)' id="soImg" onclick="update('so')" class="btn btn-default" rel='nofollow'>360 图床</a>
-				<input type="file" id="file" name="file" onchange="sc($('#imgType').attr('imgType'));" style="display:none" accept="image/*">
-			</form>
-			<div class="imgContent" id="imgContent">
-				<div id="images"></div>
-				<div id="imgurl">
-					<code>ImgUrl:</code>
-					<input onclick="oCopy(this)" value=""  id="Imgs_url">
-					<code>HtmlUrl:</code>
-					<input onclick="oCopy(this)" value=""  id="Imgs_html">
-					<code>Ubb:</code>
-					<input onclick="oCopy(this)" value=""  id="Imgs_Ubb">
-					<code>Markdown:</code>
-					<input onclick="oCopy(this)" value=""  id="Imgs_markdown">
-				</div>
-			</div>
 
-		</div>
-	</div>
+<body class="mdui-theme-accent-indigo mdui-appbar-with-toolbar ">
+  <div class="mdui-appbar mdui-appbar-fixed">
+    <div class="mdui-toolbar mdui-color-black">
+      <span mdui-drawer="{target: '#menu'}" class="mdui-btn mdui-btn-icon open-menu"><i class="mdui-icon material-icons">&#xe5d2;</i></span>
+      <a href="https://www.blueskyxn.com" class="mdui-typo-headline"><img style="width:225px;" src="https://p.pstatp.com/origin/13833000222ef192bd912"></a>
+      <div class="mdui-toolbar-spacer"></div>
+    </div>
+  </div>
+
+  <div id="menu" class="mdui-drawer mdui-drawer-close">
+    <div class="mdui-list" mdui-collapse="{accordion: true}">
+	  <a class="mdui-list-item mdui-ripple" href="index.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons">notifications</i>
+        <div class="mdui-list-item-content">图床首页</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="jd.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-jingdong mdui-text-color-red"></i>
+        <div class="mdui-list-item-content">京东图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="ali.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-ali mdui-text-color-orange"></i>
+        <div class="mdui-list-item-content">AL图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="sg.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-sougou mdui-text-color-blue"></i>
+        <div class="mdui-list-item-content">SG图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="58.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-dispatch mdui-text-color-yellow"></i>
+        <div class="mdui-list-item-content">58图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="wy.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-wangyi mdui-text-color-red"></i>
+        <div class="mdui-list-item-content">WY图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="tt.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-toutiao mdui-text-color-red"></i>
+        <div class="mdui-list-item-content">TT图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="qq.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-dispatch mdui-text-color-blue"></i>
+        <div class="mdui-list-item-content">QQ图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="kefu.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-choice mdui-text-color-pink"></i>
+        <div class="mdui-list-item-content">KF图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="sh.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-souhu mdui-text-color-orange"></i>
+        <div class="mdui-list-item-content">SH图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="hl.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-sm mdui-text-color-blue"></i>
+        <div class="mdui-list-item-content">HL图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="360.html">
+      <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-icons-code mdui-text-color-red"></i>
+        <div class="mdui-list-item-content">360图床</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple " href="about.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-icons-code mdui-text-color-red"></i>
+        <div class="mdui-list-item-content">关于</div>
+      </a>
+      <!--a class="mdui-list-item mdui-ripple " href="images.html">
+                <i class="mdui-list-item-icon mdui-icon material-icons">&#xe40b;</i>
+                <div class="mdui-list-item-content">图库</div>
+            </a-->
+      <a class="mdui-list-item mdui-ripple " href="notice.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons">notifications</i>
+        <div class="mdui-list-item-content">公告</div>
+      </a>
+    </div>
+  </div>
+	  <div class="alert alert-warning alert-dismissible" role="alert" id="gonggao" style="display: none; text-align: center;">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close" id="gonggaoClose"><span aria-hidden="true">&times;</span></button>
+    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <strong>警告：</strong> 网络并非法外之地！切勿传输违反相关国家法规及个人隐私的图片。本服务器记录上传者IP，请自行判断节点稳定性. <a href="notice.html">公告：2021.05.10</a></div>
+  <div class="mdui-container">
+    <main>
+      <div class="upload-container">
+        <div class="title">
+        <h1>Image Upload - 京东 
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-jingdong mdui-text-color-red"></i>
+        </h1>
+          <h5>
+          全球CDN免费图床，点击左侧菜单可切换节点
+          </h5>
+          <p>存储于各大互联网公共接口，请遵循该厂条款！最大可上传 5120 KB的图片，单次同时可选择 20 张；<br>状态：<img src="https://img30.360buyimg.com/pop/jfs/t1/169067/25/13179/1900/6051af70E2239a88c/c8c62e6168a12a97.png" alt="image.png" title="可用" width="16" height="16"/>（显示绿勾即为正常）；全局支持[<span style="color: green;"> HTTPS </span>]；<span style="color: red;">CDN：融合京东云+百度云. </span>该节点图片无压缩</p>
+        </div>
+        <form action="" method="post" enctype="multipart/form-data">
+          <input id="image" style="display: none;" type="file" multiple="" name="image" accept="image/*">
+        </form>
+        <div class="success-info">
+          <div class="mdui-tab mdui-tab-scrollable" mdui-tab="">
+            <a href="#code-url" class="mdui-ripple mdui-tab-active">URL</a>
+            <a href="#code-html" class="mdui-ripple">HTML</a>
+            <a href="#code-bbcode" class="mdui-ripple">BBCode</a>
+            <a href="#code-markdown" class="mdui-ripple">Markdown</a>
+            <a href="#code-markdown-with-link" class="mdui-ripple">Markdown with link</a>
+          </div>
+          <div id="code-url">
+            <ul></ul>
+          </div>
+          <div id="code-html">
+            <ul></ul>
+          </div>
+          <div id="code-bbcode">
+            <ul></ul>
+          </div>
+          <div id="code-markdown">
+            <ul></ul>
+          </div>
+          <div id="code-markdown-with-link">
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+
+  <div class="mdui-fab-wrapper">
+    <button id="to-top" class="mdui-fab mdui-ripple mdui-fab-hide mdui-color-theme-accent">
+      <i class="mdui-icon material-icons">&#xe5d8;</i>
+    </button>
+  </div>
+  <div id="loading-container">
+    <div class="mask"></div>
+    <div class="loading">
+      <div class="mdui-spinner mdui-spinner-colorful"></div>
+    </div>
+  </div>
+    <div id="copyUp" style="display: none;">
+      <div class="mdui-progress">
+        <div class="mdui-progress-indeterminate"></div>
+      </div>
+    </div>
+<footer>
+    <div id="copyUp" style="display: none;">
+      <div class="mdui-progress">
+        <div class="mdui-progress-indeterminate"></div>
+      </div>
+    </div>
+    <div class="mdui-container" style="text-align: center">
+     Copyright &copy; 2020<span id="timeyear"></span> <a href="" target="_blank" style="color:#999;" title="紫曦网络">紫曦の图床</a> All Rights . <a href="about.html" style="color:#999;">关于</a> .  <a href="" target="_blank" style="color:red;" title="联系客服">反馈·建议</a> | <a href="" target="_blank" style="color:red;" title="联系方式">联系方式</a>
+    </div>
+</footer>
 </body>
-<script type="text/javascript">
-/**
- * 注意原作者没有做本地化 使用的API藏在apis.yum6.cn里面
- * https://github.com/dalaolala/4to1pic
- * https://tools.yum6.cn/Tools/Images
- *  https://apis.yum6.cn/wiki/detail/5bd44db88e975/5bd7f16aa33d7.html
- */
-
- function update(type){
- 	$('#file').val('');
- 	$('#imgType').attr({
- 		imgType: type,
- 	});
- 	file.click();
-
- }
-
-
- function sc(type){
- 	if(!type){return false;}
- 	var animateimg = $("#file").val();
- 	$('#pg').val('0');
- 	var imgarr=animateimg.split('\\');
- 	var myimg=imgarr[imgarr.length-1];
- 	var houzui = myimg.lastIndexOf('.');
- 	var ext = myimg.substring(houzui, myimg.length).toUpperCase();  
- 	var file = $('#file').get(0).files[0];
- 	if(!file){return false;}
- 	var fileSize = file.size;
-
- 	switch(type){
- 		case 'sougou':
- 		var maxSize = 2097152;
- 		break;
- 		case 'baidu':
- 		var maxSize = 2097152;
- 		break; 
- 		case 'so':
- 		var maxSize = 2097152; 
- 		break;
- 		case 'sina':
- 		var maxSize = 10485760; 
- 		break;
- 		default:
- 		var maxSize = 10485760; 
- 	} 
- 	if(ext !='.PNG' && ext !='.GIF' && ext !='.JPG' && ext !='.JPEG' && ext !='.BMP'){  
- 		parent.alert('文件类型错误,请上传图片类型');return false;  
- 	}else if(parseInt(fileSize) >= parseInt(maxSize)){  
- 		parent.alert('上传的文件不能超过'+maxSize/1024/1024+'MB');return false;  
- 	}else{
- 		$('#imgLoading').attr('src','https://ae03.alicdn.com/kf/H2256e6bfbb0d463388238e0629c36012T.jpg');
- 		var data = new FormData($('#form1')[0]);  
- 		var YoungxjApisToken = 'f07b711396f9a05bc7129c4507fb65c5';
- 		switch(type){
- 			case 'sougou':
- 			var apiUrl = 'https://apis.yum6.cn/api/5bd7f16aa33d7';
- 			break;
- 			case 'baidu':
- 			var apiUrl = 'https://apis.yum6.cn/api/5bd828881f92b'; 
- 			break;
- 			case 'so':
- 			var apiUrl = 'https://apis.yum6.cn/api/5bd90750c3f77'; 
- 			break;
- 			case 'sina':
- 			var apiUrl = 'https://apis.yum6.cn/api/5bd44dc94bcfc'; 
- 			break;
- 			default:
- 			return false;
- 		};
- 		$('#progress').show();
- 		$.ajax({
- 			url: apiUrl+'?token='+YoungxjApisToken,   
- 			type: 'POST',    
- 			data: data,    
- 			dataType: 'JSON', 
- 			processData: false,    
- 			contentType: false,
- 			xhr: function(){
- 				var xhr = $.ajaxSettings.xhr();
- 				if(onprogress && xhr.upload) {
- 					xhr.upload.addEventListener("progress" , onprogress, false);
- 					return xhr;
- 				}
- 			}
- 		}).done(function(ret){
- 			if(ret['code']=='1'){
-
- 				var img = '';var imgurl = '';
- 				if(type!='sina'){var imgSrc = ret['data'];}else{var imgSrc = ret['data']['url'];}
- 				img += '<img src="'+imgSrc+'" name="sinaimg" id="sinaimg">';
- 				
- 				$('#Imgs_url').val(imgSrc);
- 				$('#Imgs_html').val('<img src="'+imgSrc+'"/>');
- 				$('#Imgs_Ubb').val('[img]'+imgSrc+'[/img]');
- 				$('#Imgs_markdown').val('![]('+imgSrc+')');
- 				$('#images').html(img);$('#imgLoading').attr('src','https://p.pstatp.com/origin/ffb400026f09692a6b71');
- 				$('#imgurl').show();
- 				$('#progress').hide();  
- 			}else{
- 				$('#progress').hide();
- 				$('#imgLoading').attr('src','https://p.pstatp.com/origin/1378f000259f0b5ac0ae1');
- 				parent.alert(ret['msg']);
- 			}  
- 			
- 		});
- 		return false;  
- 	}    
- }
-
- function onprogress(evt){
- 	var loaded = evt.loaded;
- 	var tot = evt.total;
- 	var per = Math.floor(100*loaded/tot);
- 	$('#pg').val(per);
-
- }
- function oCopy(obj){
- 	obj.select();
- 	document.execCommand("Copy");
- }
-
- function browserRedirect(){
- 	var sUserAgent = navigator.userAgent.toLowerCase();
- 	var bIsIpad = sUserAgent.match(/ipad/i) == 'ipad';
- 	var bIsIphone = sUserAgent.match(/iphone os/i) == 'iphone os';
- 	var bIsMidp = sUserAgent.match(/midp/i) == 'midp';
- 	var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == 'rv:1.2.3.4';
- 	var bIsUc = sUserAgent.match(/ucweb/i) == 'web';
- 	var bIsCE = sUserAgent.match(/windows ce/i) == 'windows ce';
- 	var bIsWM = sUserAgent.match(/windows mobile/i) == 'windows mobile';
- 	var bIsAndroid = sUserAgent.match(/android/i) == 'android';
- 	if(bIsIpad || bIsIphone || bIsMidp || bIsUc7 || bIsUc || bIsCE || bIsWM || bIsAndroid ){
- 		return 1;
- 	}
- };
- $(document).ready(function(){
- 	$('#imgLoading').click(function() {$("#imgContent").toggle();});
- });
-</script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/mdui.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/clipboard.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/fileinput.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/zh.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/bootstrap.min.js"></script>
+  <script>
+    var ApiUpload = '58';
+    var MykeySign = new Date().getTime();
+  </script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/copyUp.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/myUp.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/myFonction.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bucdn/upimg@latest/static/js/init.js"></script>
 </html>
